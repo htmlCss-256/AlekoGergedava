@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ჩვენ შესახებ — ცისკარის მარანი</title>
+    <meta name="description" content="ცისკარის მარანი — ოთხი თაობის ისტორია, ქვევრის ღვინის ტრადიცია და ჩვენი ღვინოების კრებული.">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@400;500;600;700&family=Noto+Sans+Georgian:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Final.css">
+    <link rel="stylesheet" href="Aboutus.css">
+</head>
+
+<body>
+ <header>
+  <div class="color-back">
+  <div class="container-nav">
+  <img src="images/mark.svg" alt="ცისკარის მარანი" class="brand-mark">
+  <div class="Marani1">
+  <span>ცისკარის მარანი</span>
+  <small>ოჯახური ქვევრის მარანი, კახეთი</small>
+  </div>
+
+  <nav class="marani">
+    <ul class="nav-links">
+      <li><a href="mtavari.html">მთავარი</a></li>
+      <li><a href="Aboutus.html" aria-current="page" class="active">ჩვენ შესახებ</a></li>
+      <li><a href="services.html">სერვისები</a></li>
+      <li><a href="#contact">კონტაქტი</a></li>
+    </ul>
+  </nav>
+
+  <div class="menu">
+    <button class="menubtn" id="menuBtn" aria-expanded="false">მენიუ &#9776;</button>
+    <div class="dropdown" id="dropdownMenu">
+      <button>შესვლა</button>
+      <button class="btn-auth">რეგისტრაცია</button>
+    </div>
+  </div>
+</div>
+<script>
+  const menuBtn = document.getElementById('menuBtn');
+  const dropdownMenu = document.getElementById('dropdownMenu');
+  menuBtn.addEventListener('click', () => {
+    dropdownMenu.classList.toggle('show');
+  });
+</script>
+  </div>
+</header>
+
+<main>
+
+  <section class="about-hero">
+    <div class="about-hero-inner">
+      <p class="about-eyebrow">ჩვენს შესახებ</p>
+      <h1 class="about-h1">ოთხი თაობა ერთი მარნის გარშემო</h1>
+      <p class="about-lede">
+        ცისკარის მარანი 1932 წლიდან იწყება — მას შემდეგ, რაც ჩვენი ოჯახის
+        პირველმა თაობამ პირველი ვაზი დარგო წინანდლის მიდამოში. მას შემდეგ
+        ოთხი თაობა ერთსა და იმავე თიხის ქვევარში ჩაყრის ყურძენს და ელოდება —
+        ისე, როგორც პაპაჩვენმა გვასწავლა: მოთმინებით, ხელის ჩაურევლად,
+        მიწისა და დროის პატივისცემით.
+      </p>
+    </div>
+  </section>
+
+  <section class="timeline-section">
+    <h2 class="section-heading">გზა 1932 წლიდან დღემდე</h2>
+    <ol class="timeline">
+      <li class="timeline-item">
+        <span class="timeline-year">1932</span>
+        <div class="timeline-body">
+          <h3>პირველი თაობა</h3>
+          <p>ვენახის გაშენება წინანდლის მიდამოში და პირველი ქვევრის ჩაფლვა მარნის სარდაფში.</p>
+        </div>
+      </li>
+      <li class="timeline-item">
+        <span class="timeline-year">მეორე თაობა</span>
+        <div class="timeline-body">
+          <h3>ტრადიციის შენარჩუნება</h3>
+          <p>რთულ წლებშიც კი ოჯახმა არ დათმო ძველი მეთოდი — ჭაჭაზე დადუღება და ქვევარში დაძველება.</p>
+        </div>
+      </li>
+      <li class="timeline-item">
+        <span class="timeline-year">მესამე თაობა</span>
+        <div class="timeline-body">
+          <h3>ვანო, მარნის მეღვინე</h3>
+          <p>დღეს დუღილსა და დაძველებაზე ვანო ზრუნავს — იმავე წესებით, რაც პაპამისმა გადასცა.</p>
+        </div>
+      </li>
+      <li class="timeline-item">
+        <span class="timeline-year">მეოთხე თაობა</span>
+        <div class="timeline-body">
+          <h3>მარნის კარი ღიაა</h3>
+          <p>დღევანდელმა თაობამ მარანი სტუმრებს გაუღო — დეგუსტაცია, ტური და სამარნო სუფრა.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <section class="quote-section">
+    <blockquote class="about-quote">
+      „ღვინო არ კეთდება — ის უბრალოდ ხდება, თუ მიწას და დროს არ შეაწუხებ.“
+    </blockquote>
+    <p class="quote-attribution">ვანო, მარნის მეღვინე, მესამე თაობა</p>
+  </section>
+
+
+  <section class="visit-section">
+    <div class="visit-inner">
+      <div class="visit-text">
+        <h2 class="section-heading">გვესტუმრეთ მარანში</h2>
+        <p>სოფ. წინანდალის მიდამო, კახეთი. სტუმრებს ვღებულობთ წინასწარი ჯავშნით.</p>
+      </div>
+      <a href="services.html" class="button">დეგუსტაციის ჯავშნა</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer" id="contact">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>ცისკარის მარანი</h4>
+        <p>ოჯახური ქვევრის მარანი, კახეთი. სტუმრებს ვღებულობთ წინასწარი ჯავშნით.</p>
+      </div>
+      <div class="footer-col">
+        <h4>გვერდები</h4>
+        <ul>
+          <li><a href="mtavari.html">მთავარი</a></li>
+          <li><a href="Aboutus.html">ჩვენ შესახებ</a></li>
+          <li><a href="services.html">სერვისები</a></li>
+          <li><a href="#contact">კონტაქტი</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>კონტაქტი</h4>
+        <ul>
+          <li><a href="tel:+995551234567">+995 551 23 45 67</a></li>
+          <li><a href="mailto:hello@tsiskarismarani.ge">hello@tsiskarismarani.ge</a></li>
+          <li>სოფ. წინანდალის მიდამო, კახეთი</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 ცისკარის მარანი. ყველა უფლება დაცულია.</span>
+      <span>საფინალო პროექტი — სასწავლო მაგალითი</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

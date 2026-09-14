@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ცისკარის მარანი — ოჯახური ქვევრის მარანი კახეთში</title>
+    <meta name="description" content="ცისკარის მარანი — ოთხი თაობის ოჯახური ქვევრის მარანი კახეთში. ღვინის დეგუსტაცია, მარნის ტური და სამარნო სუფრა.">
+    <link rel="stylesheet" href="Final.css">
+</head>
+
+<body>
+ <header>
+  <div class="color-back">
+  <div class="container-nav">
+  <img src="images/mark.svg" alt="ცისკარის მარანი" class="brand-mark">
+  <div class="Marani1">
+  <span>ცისკარის მარანი</span>
+  <small>ოჯახური ქვევრის მარანი, კახეთი</small>
+  </div>
+
+  <div class="marani">
+    <ul class="nav-links">
+      <li><a href="mtavari.html">მთავარი</a></li>
+      <li><a href="Aboutus.html">ჩვენ შესახებ</a></li>
+      <li><a href="services.html">სერვისები</a></li>
+      <li><a href="#contact">კონტაქტი</a></li>
+    </ul>
+  </div>
+
+  <div class="menu">
+    <button class="menubtn" id="menuBtn" aria-expanded="false">მენიუ &#9776;</button>
+    <div class="dropdown" id="dropdownMenu">
+      <button>შესვლა</button>
+      <button class="btn-auth">რეგისტრაცია</button>
+    </div>
+  </div>
+</div>
+<script>
+  const menuBtn = document.getElementById('menuBtn');
+  const dropdownMenu = document.getElementById('dropdownMenu');
+  menuBtn.addEventListener('click', () => {
+    dropdownMenu.classList.toggle('show');
+  });
+</script>
+  </div>
+</header>
+
+
+<main>
+   <section class="svc-hero" style="padding-bottom:40px;">
+  <div class="svc-container">
+    <p class="svc-eyebrow">სერვისები</p>
+    <h1 style="max-width:22ch;">გამოცდილება, რომელიც მარნის კართან იწყება</h1>
+    <p class="svc-lede">აირჩიეთ ის, რაც თქვენს დროსა და ინტერესს შეესაბამება — მოკლე დეგუსტაციიდან სრულ სავენახე დღემდე. ყველა სერვისი წინასწარ ჯავშანს საჭიროებს.</p>
+  </div>
+</section>
+
+<section class="svc-border">
+  <div class="svc-container">
+    <div class="svc-grid">
+
+      <article class="svc-card">
+        <img src="images/icon-glass.svg" alt="" class="svc-icon">
+        <h3>კლასიკური დეგუსტაცია</h3>
+        <p>სამი ღვინის დაგემოვნება მარნის სარდაფში, ყველისა და მჭადის თანხლებით. ხანგრძლივობა — 45 წუთი.</p>
+        <span class="svc-price">45 ₾ / სტუმარი</span>
+      </article>
+
+      <article class="svc-card">
+        <img src="images/icon-cellar.svg" alt="" class="svc-icon">
+        <h3>მარნის სრული ტური</h3>
+        <p>ვენახიდან ქვევრამდე — გავივლით მთელ გზას, ხუთი ღვინის დაგემოვნებით და მარნის ისტორიის მოთხრობით.</p>
+        <span class="svc-price">70 ₾ / სტუმარი</span>
+      </article>
+
+      <article class="svc-card">
+        <img src="images/icon-grapes.svg" alt="" class="svc-icon">
+        <h3>სავენახე გამოცდილება</h3>
+        <p>სექტემბერ-ოქტომბერში შემოგვიერთდით რთველზე — ყურძნის კრეფა, დაწურვა და ტრადიციული სუფრა ვენახში.</p>
+        <span class="svc-price">120 ₾ / სტუმარი</span>
+      </article>
+
+      <article class="svc-card">
+        <img src="images/icon-table.svg" alt="" class="svc-icon">
+        <h3>სამარნო სუფრა</h3>
+        <p>ღამის ვახშამი გრძელ ხის მაგიდასთან — საოჯახო კერძები, ღვინის თანხლება და ცისკარების ოჯახის სტუმართმოყვარეობა.</p>
+        <span class="svc-price">95 ₾ / სტუმარი</span>
+      </article>
+
+      <article class="svc-card">
+        <img src="images/icon-cellar.svg" alt="" class="svc-icon">
+        <h3>ქვევრის გახსნის ცერემონია</h3>
+        <p>თებერვალში დაესწარით ახალი მოსავლის პირველ გახსნას — იშვიათი შესაძლებლობა ნახოთ ეს ტრადიციული რიტუალი უშუალოდ.</p>
+        <span class="svc-price">წელიწადში ერთხელ, ჯავშნით</span>
+      </article>
+
+      <article class="svc-card">
+        <img src="images/icon-card.svg" alt="" class="svc-icon">
+        <h3>ცისკარის ღვინის კლუბი</h3>
+        <p>წელიწადში ოთხჯერ მიიღეთ შეზღუდული ტირაჟის ბოთლები პირდაპირ მარნიდან, კლუბის წევრებისთვის ფასდაკლებით.</p>
+        <span class="svc-price">240 ₾ / წელი</span>
+      </article>
+     </div>
+
+    <p style="margin-top:20px; text-align:center;">
+      <a href="#contact" id="booking" class="svc-btn">სერვისის დაჯავშნა</a>
+    </p>
+  </div>
+</section>
+
+<section class="svc-quote-section">
+  <div class="svc-container svc-quote">
+    <blockquote>„სტუმარი, რომელიც ჩვენს მაგიდასთან ზის, ოჯახის წევრი ხდება — თუნდაც ერთი საღამოთი.“</blockquote>
+    — ნინო, სამარნო სუფრის მასპინძელი
+  </div>
+</section>
+</main>
+
+<footer class="site-footer" id="contact">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>ცისკარის მარანი</h4>
+        <p>ოჯახური ქვევრის მარანი, კახეთი. სტუმრებს ვღებულობთ წინასწარი ჯავშნით.</p>
+      </div>
+      <div class="footer-col">
+        <h4>გვერდები</h4>
+        <ul>
+          <li><a href="mtavari.html">მთავარი</a></li>
+          <li><a href="Aboutus.html">ჩვენ შესახებ</a></li>
+          <li><a href="service.html">სერვისები</a></li>
+          <li><a href="#contact">კონტაქტი</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>კონტაქტი</h4>
+        <ul>
+          <li><a href="tel:+995551234567">+995 551 23 45 67</a></li>
+          <li><a href="mailto:hello@tsiskarismarani.ge">hello@tsiskarismarani.ge</a></li>
+          <li>სოფ. წინანდალის მიდამო, კახეთი</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 ცისკარის მარანი. ყველა უფლება დაცულია.</span>
+      <span>საფინალო პროექტი — სასწავლო მაგალითი</span>
+    </div>
+  </div>
+</footer>
