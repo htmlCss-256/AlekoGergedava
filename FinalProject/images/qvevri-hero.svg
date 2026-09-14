@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2A1B14"/>
+      <stop offset="100%" stop-color="#171009"/>
+    </linearGradient>
+    <linearGradient id="qvevriGrad" x1="20%" y1="10%" x2="80%" y2="90%">
+      <stop offset="0%" stop-color="#C68A34"/>
+      <stop offset="50%" stop-color="#A8633A"/>
+      <stop offset="100%" stop-color="#6E1B26"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(198,138,52,0.25)"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="450" rx="12" fill="url(#bgGrad)"/>
+  <rect width="600" height="450" rx="12" fill="none" stroke="#C68A34" stroke-opacity="0.3" stroke-width="2"/>
+  <circle cx="300" cy="225" r="180" fill="url(#glow)"/>
+
+  <!-- Earth / Cellar ground line -->
+  <path d="M40 360 Q 300 340 560 360" stroke="#A8633A" stroke-width="3" fill="none" stroke-opacity="0.6"/>
+  <path d="M40 360 L560 360 L560 420 L40 420 Z" fill="#1E140F" fill-opacity="0.8"/>
+
+  <!-- Main Traditional Georgian Qvevri -->
+  <g transform="translate(220, 100)">
+    <!-- Qvevri Lid / Mouth -->
+    <ellipse cx="80" cy="40" rx="36" ry="10" fill="#8A2432" stroke="#DDA84F" stroke-width="2"/>
+    <ellipse cx="80" cy="38" rx="28" ry="6" fill="#1E140F"/>
+    <!-- Qvevri Body -->
+    <path d="M44 40 C 30 70, 0 130, 0 200 C 0 270, 45 320, 80 320 C 115 320, 160 270, 160 200 C 160 130, 130 70, 116 40 Z" 
+          fill="url(#qvevriGrad)" stroke="#DDA84F" stroke-width="2.5"/>
+    <!-- Traditional bands/rings -->
+    <path d="M22 140 Q 80 160 138 140" fill="none" stroke="#6E1B26" stroke-width="3" stroke-linecap="round"/>
+    <path d="M12 195 Q 80 220 148 195" fill="none" stroke="#6E1B26" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M26 250 Q 80 270 134 250" fill="none" stroke="#6E1B26" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Smaller Qvevri on left buried in ground -->
+  <g transform="translate(100, 240) scale(0.65)">
+    <ellipse cx="80" cy="40" rx="34" ry="9" fill="#8A2432" stroke="#C68A34" stroke-width="2"/>
+    <path d="M46 40 C 30 70, 0 130, 0 200 C 0 250, 35 290, 80 300 C 125 290, 160 250, 160 200 C 160 130, 130 70, 114 40 Z" 
+          fill="url(#qvevriGrad)" opacity="0.85" stroke="#C68A34" stroke-width="2"/>
+  </g>
+
+  <!-- Smaller Qvevri on right buried in ground -->
+  <g transform="translate(390, 230) scale(0.7)">
+    <ellipse cx="80" cy="40" rx="34" ry="9" fill="#8A2432" stroke="#C68A34" stroke-width="2"/>
+    <path d="M46 40 C 30 70, 0 130, 0 200 C 0 250, 35 290, 80 300 C 125 290, 160 250, 160 200 C 160 130, 130 70, 114 40 Z" 
+          fill="url(#qvevriGrad)" opacity="0.85" stroke="#C68A34" stroke-width="2"/>
+  </g>
+
+  <!-- Vine leaves & grapes ornament -->
+  <path d="M60 80 Q 150 50 250 80 Q 350 110 450 60 Q 520 70 540 100" fill="none" stroke="#C68A34" stroke-width="2.5" stroke-dasharray="6,4"/>
+  <circle cx="150" cy="65" r="7" fill="#8A2432"/>
+  <circle cx="160" cy="72" r="6" fill="#6E1B26"/>
+  <circle cx="154" cy="80" r="6" fill="#8A2432"/>
+  <circle cx="440" cy="75" r="7" fill="#8A2432"/>
+  <circle cx="450" cy="82" r="6" fill="#6E1B26"/>
+  <circle cx="444" cy="90" r="6" fill="#8A2432"/>
+</svg>
+
